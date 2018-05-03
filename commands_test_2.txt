@@ -1,0 +1,17 @@
+[COMMAND_LIST]
+echo "hello there"
+grep "ls" commands.txt
+grep "tacos" commands.txt
+for i in {1..5}; do echo 'Welcome'; sleep 2; done
+this isn't valid
+cat
+python
+echo "hello there"
+while true; do echo 'Ctrl c to kill'; sleep 1; done
+grep "pwd" commands.txt
+this also isn't valid
+while true; do echo 'Ctrl c to kill again'; sleep 1; done
+ps
+
+[VALID_COMMANDS]
+ls

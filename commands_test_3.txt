@@ -1,0 +1,7 @@
+[COMMAND_LIST]
+
+[VALID_COMMANDS]
+for i in {1..5}; do echo 'Welcome $i times'; sleep 5; done
+python
+while true; do echo 'Ctrl c to kill'; sleep 1; done
+cat
