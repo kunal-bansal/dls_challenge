@@ -8,7 +8,7 @@
      'curl -X POST http://0.0.0.0:5000/database'
  
  - Sample requests to feed in data from a file: 
-     'curl -F "filename=commands.txt" http://0.0.0.0:5000/commands'
+     'curl -F "filename=commands.txt" http://0.0.0.0:5000/commands',
      'curl -F "filename=commands_test_1.txt" http://0.0.0.0:5000/commands'
  
  - Check metadata present in provided db using:
